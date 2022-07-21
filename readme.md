@@ -9,4 +9,4 @@
 <a href="https://todoappmbd.netlify.app/">Live Site</a>
 
 
-**Thanks for check out this project** 🚀
+**Thanks for checking out this project** 🚀
