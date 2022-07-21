@@ -1,0 +1,93 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    --font: 'Outfit', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::after, *::before{ box-sizing: inherit;}
+
+img{ max-width: 100%;}
+
+body{
+    display: grid;
+    min-height: 97vh;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    background-color: var(--Dark-blue);
+}
+
+.card{
+    width: 40rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: var(--White);
+}
+
+.card--form h1{
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.form--header{
+    margin-top: 2rem;
+}
+
+.form--header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.todo--input{
+    font-family: var(--font);
+    border: 1px solid hsl(220, 15%, 55%);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.todo--submit{
+    font-family: var(--font);
+    font-size: 1.5rem;
+    color: var(--Dark-blue);
+    font-weight: 600;
+    width: 9rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.todo--submit:hover{
+    cursor: pointer;
+}
+
+.form--description{
+    margin-top: 3rem;
+    font-family: var(--font);
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.form--description ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.form--description li{
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+.form--description li:hover{
+    cursor: pointer;
+    color: var(--Dark-blue);
+}
